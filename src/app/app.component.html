@@ -1,0 +1,103 @@
+<div id="wrapper">
+    <!-- Navigation -->
+    <nav class="top1 navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Modern</a>
+        </div>
+        <!-- /.navbar-header -->
+        <ul class="nav navbar-nav navbar-right">
+
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle avatar" data-toggle="dropdown">
+                    <img src="assets/images/1.png" alt="" />
+                    <span class="badge">9</span>
+                </a>
+                <ul class="dropdown-menu">
+
+                    <li class="m_2">
+                        <a href="#">
+                            <i class="fa fa-lock"></i> Logout</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+        <div class="navbar-default sidebar" role="navigation">
+            <div class="sidebar-nav navbar-collapse">
+                <ul class="nav" id="side-menu">
+                    <li>
+                        <a routerLink="home">
+                            <i class="fa fa-dashboard fa-fw nav_icon">
+
+                            </i>Home</a>
+                    </li>
+                    <li>
+                        <a routerLink="about">
+                            <i class="fa fa-dashboard fa-fw nav_icon">
+
+                            </i>About</a>
+                    </li>
+                    <li>
+                        <a routerLink="blogs">
+                            <i class="fa fa-dashboard fa-fw nav_icon">
+
+                            </i>Blogs</a>
+                    </li>
+                    <li>
+                        <a routerLink="contact">
+                            <i class="fa fa-dashboard fa-fw nav_icon">
+
+                            </i>Contact</a>
+                    </li>
+                    <!-- <li>
+                               <a routerLink="blogs"><i class="fa fa-laptop nav_icon"></i>Blogs<span class="fa arrow"></span></a>
+                               <ul class="nav nav-second-level">
+                                   <li>
+                                       <a href="grids.html">Technical Blogs</a>
+                                   </li>
+                                   <li>
+                                        <a href="grids.html">LifeStyle Blogs</a>
+                                    </li>
+                               </ul>
+                            
+                           </li> -->
+                    <!--                            
+                           <li>
+                               <a href="#"><i class="fa fa-sitemap fa-fw nav_icon"></i>Css<span class="fa arrow"></span></a>
+                               <ul class="nav nav-second-level">
+                                   <li>
+                                       <a href="media.html">Media</a>
+                                   </li>
+                                   <li>
+                                       <a href="login.html">Login</a>
+                                   </li>
+                               </ul>
+                              
+                           </li> -->
+                </ul>
+            </div>
+            <!-- /.sidebar-collapse -->
+        </div>
+        <!-- /.navbar-static-side -->
+    </nav>
+    <div id="page-wrapper">
+        <div class="col-md-12 graphs">
+            <div class="xs">
+                <router-outlet></router-outlet>
+            </div>
+            <div class="copy_layout">
+                <p>Copyright © 2015 Modern. All Rights Reserved | Design by
+                    <a href="http://w3layouts.com/" target="_blank">W3layouts</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- /#page-wrapper -->
+</div>
+<!-- /#wrapper -->
